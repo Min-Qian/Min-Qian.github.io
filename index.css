@@ -80,7 +80,7 @@ body {
 }
 #middle h1 {
     color:rgb(255, 50, 50);
-    font-size:50px;
+    font-size:70px;
     text-decoration:underline;
 }
 #about {
@@ -336,6 +336,9 @@ body {
     #middle {
         width:90vw;
         padding:0px 5vw;
+    }
+    #middle h1 {
+    font-size:50px;
     }
     #middle table {
         width:80%;

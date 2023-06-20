@@ -362,3 +362,27 @@ body {
         width:100%;
     }
 }
+
+.project-card {
+  display: flex;
+  align-items: center;
+  background-color: #f1f1f1;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+.project-card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.project-card .project-info h3 {
+  margin: 0;
+}
+
+.project-card .project-info p {
+  margin: 5px 0;
+}

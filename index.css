@@ -364,28 +364,32 @@ body {
 }
 
 .project-card {
+  position: relative;
   display: flex;
   align-items: center;
+  justify-content: center;
   background-color: #f1f1f1;
-background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   padding: 20px;
   margin-bottom: 20px;
   border-radius: 4px;
 }
 
-.project-card img {
-  width: 100px;
-  height: 100px;
-  object-fit: cover;
-  margin-right: 20px;
+.project-card .project-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 4px;
 }
 
 .project-card .project-info h3 {
   margin: 0;
+  text-align: center;
 }
 
-.project-card .project-info p {
-  margin: 5px 0;
-}
+

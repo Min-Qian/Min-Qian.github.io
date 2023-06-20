@@ -177,11 +177,7 @@ body {
     position:fixed;
     max-height:100vh;
     overflow-y:auto;
-
-
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+    display: none;
 }
 .container div {
     font-size:25px;
@@ -390,6 +386,18 @@ width: calc(100% - 40px); /* Subtract the desired padding value from 100% */
   margin: 0;
   text-align: left;
   color: aliceblue;
+}
+
+.card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 -10px; /* Add negative margin to counteract the padding of the container */
+}
+
+.project-link {
+  flex-basis: calc(50% - 20px); /* Each card should take 50% of the width with 20px padding */
+  padding: 10px; /* Add padding to each card */
 }
 
 

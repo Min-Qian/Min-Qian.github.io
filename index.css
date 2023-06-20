@@ -364,6 +364,8 @@ body {
 }
 
 .project-card {
+width: 400px;
+height: 200px;
   position: relative;
   display: flex;
   align-items: flex-end;

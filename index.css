@@ -388,16 +388,19 @@ width: calc(100% - 40px); /* Subtract the desired padding value from 100% */
   color: aliceblue;
 }
 
-.card-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin: 0 -10px; /* Add negative margin to counteract the padding of the container */
+.container {
+    /* Your existing container styles */
+}
+
+.project-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .project-link {
-  flex-basis: calc(50% - 20px); /* Each card should take 50% of the width with 20px padding */
-  padding: 10px; /* Add padding to each card */
+    width: calc(50% - 10px); /* Adjust the width as per your desired spacing */
+    margin-bottom: 20px;
 }
 
 

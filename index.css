@@ -89,9 +89,10 @@ body {
     height: 100%;
     text-align: center;
     line-height: 0.8;
-    margin-top: 50%;
+    margin-top: 25%;
     margin-left: 4%;
-    padding-bottom:25%;
+    margin-bottom: 10%;
+    padding-bottom:5%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     background-clip: text;

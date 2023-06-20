@@ -177,7 +177,11 @@ body {
     position:fixed;
     max-height:100vh;
     overflow-y:auto;
-    display:none;
+
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 .container div {
     font-size:25px;
@@ -361,15 +365,11 @@ body {
     #box div {
         width:100%;
     }
-.project-card {
-width: 300px;
-height: 200px;
-}
 }
 
 .project-card {
 width: calc(100% - 40px); /* Subtract the desired padding value from 100% */
-  max-width: 500px; /* Optionally, set a maximum width for larger screens */
+  max-width: 700px; /* Optionally, set a maximum width for larger screens */
   margin: 0 auto; /* Center the card horizontally */
   padding: 20px; /* Set the desired padding value */
   position: relative;

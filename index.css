@@ -368,8 +368,10 @@ height: 200px;
 }
 
 .project-card {
-width: 400px;
-height: 200px;
+width: calc(100% - 40px); /* Subtract the desired padding value from 100% */
+  max-width: 500px; /* Optionally, set a maximum width for larger screens */
+  margin: 0 auto; /* Center the card horizontally */
+  padding: 20px; /* Set the desired padding value */
   position: relative;
   display: flex;
   align-items: flex-end;
@@ -378,8 +380,6 @@ height: 200px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 20px;
-  margin-bottom: 20px;
   border-radius: 4px;
 }
 

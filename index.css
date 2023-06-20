@@ -366,8 +366,8 @@ body {
 .project-card {
   position: relative;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-end;
+  justify-content: flex-start;
   background-color: #f1f1f1;
   background-size: cover;
   background-position: center;
@@ -378,8 +378,12 @@ body {
 }
 
 .project-card .project-info h3 {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
   margin: 0;
-  text-align: center;
+  text-align: left;
 }
+
 
 

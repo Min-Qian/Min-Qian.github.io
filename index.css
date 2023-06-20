@@ -380,12 +380,11 @@ width: calc(100% - 40px); /* Subtract the desired padding value from 100% */
  border-radius: 20px;
  padding-bottom: 90px;
 }
-}
 
-.project-card .project-info {
+.project-card .project-info h3{
   position: absolute;
   bottom: 10px;
-  left: 10px;
+  left: 20px;
   margin: 0;
   text-align: left;
   color: aliceblue;

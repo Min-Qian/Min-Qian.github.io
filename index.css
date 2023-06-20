@@ -90,7 +90,7 @@ body {
     text-align: center;
     line-height: 0.8;
     margin-top: 25%;
-    margin-left: 4%;
+    margin-left: 5%;
     margin-bottom: 10%;
     padding-bottom:5%;
     -webkit-background-clip: text;
@@ -101,11 +101,19 @@ body {
     background-image: url("https://images.unsplash.com/photo-1593683411501-4a421e067a46?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");
     background-size: auto;
     background-position-y: 20%;
+    position: absolute;
   }
   .last-name {
     margin-left: 90%; /* Adjust the value as per your preference */
   }
 
+  #middle h2 {
+    font-size: 5lvh;
+    text-align: right;
+    padding-right:15lvw;
+    padding-top:15lvw;
+    margin-bottom: 0;
+  }
 
 #about {
     width:10vw;
@@ -175,6 +183,9 @@ body {
 #middle table {
     width:30%;
     margin:6vh auto;
+    margin-left:58lvw;
+    margin-top: 1vh;
+    margin-bottom: 15svw;
 }
 #middle table tr td {
     text-align:center;
@@ -362,13 +373,41 @@ body {
         width:90vw;
         padding:0px 5vw;
     }
+
 	#middle h1 {
-    font-size: 170px;
-    background-size: 250%;
-    background-position: middle;
+        color: rgb(50, 122, 255);
+        font-size: 40vw;
+        width: auto;
+        height: auto;
+        line-height: 0.8;
+        margin-top: 10svw;
+        margin-left: 5sw;
+        margin-right: 5sw;
+        margin-bottom: 0;
+        padding-bottom: 8svw;
+
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-text-fill-color: transparent;
+        background-image: url("https://images.unsplash.com/photo-1593683411501-4a421e067a46?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");
+        background-size: 155vw;
+        position: relative;
     }
+    .last-name {
+        margin-left: 100vw; /* Adjust the value as per your preference */
+    }
+    #middle h2 {
+        font-size: 4svw;
+        text-align: center;
+        padding-right: 0;
+        padding-top: 5svw;
+      }
     #middle table {
         width:80%;
+        margin: auto;
+        margin-bottom: 20svw;
     }
     .container form input {
         width:90%;

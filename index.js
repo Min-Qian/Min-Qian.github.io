@@ -51,3 +51,23 @@ setTimeout(function(){
       $("#work").removeClass("animated fadeIn");
     },1000);
 },1500);
+
+// Listen for the popstate event
+window.addEventListener("popstate", function(event) {
+    // Check if any container is open
+    var containers = ["about_container", "work_container", "contact_container"];
+    for (var i = 0; i < containers.length; i++) {
+      var container = $("#" + containers[i]);
+      if (container.css("display") !== "none") {
+        // Close the container
+        container.addClass("animated slideOutLeft");
+        setTimeout(function() {
+          container.removeClass("animated slideOutLeft");
+          container.css("display", "none");
+        }, 800);
+        // Prevent the default back button behavior
+        event.preventDefault();
+        break; // Exit the loop after closing the first open container
+      }
+    }
+  });

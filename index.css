@@ -99,7 +99,7 @@ body {
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
     background-image: url("https://images.unsplash.com/photo-1593683411501-4a421e067a46?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");
-    background-size: contain;
+    background-size: auto;
     position: absolute;
   }
   .last-name {
@@ -109,9 +109,9 @@ body {
   #middle h2 {
     font-size: 5lvh;
     text-align: right;
-    padding-right:15lvw;
+    padding-right:16lvw;
     padding-top:15lvw;
-    margin-bottom: 0;
+    margin-bottom: 3vh;
   }
 
 #about {
@@ -182,16 +182,16 @@ body {
 #middle table {
     width:40%;
     margin:6vh auto;
-    margin-left:50lvw;
+    margin-left:53lvw;
     margin-top: 4vh;
-    margin-bottom: 18svw;
+    margin-bottom: 35svw;
 }
 #middle table tr td {
     text-align:center;
 }
 .social {
     color:#fff;
-    font-size:4vh;
+    font-size:3.5vh;
     border-radius:50%;
     transition:0.4s ease-in-out;
     margin:0px 8px;

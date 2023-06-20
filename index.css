@@ -377,6 +377,9 @@ width: calc(100% - 40px); /* Subtract the desired padding value from 100% */
   background-position: center;
   background-repeat: no-repeat;
   border-radius: 4px;
+ border-radius: 20px;
+ padding-bottom: 90px;
+}
 }
 
 .project-card .project-info h3 {

@@ -429,25 +429,48 @@ body {
     .first-name {
         margin-right: 20px; /* Adjust the value as per your preference */
       }
+
+      .project-card {
+        width: calc(100% - 40px); /* Subtract the desired padding value from 100% */
+          max-width: 700px; /* Optionally, set a maximum width for larger screens */
+          margin: 0 auto; /* Center the card horizontally */
+          padding: 20px; /* Set the desired padding value */
+          position: relative;
+          display: flex;
+          align-items: flex-end;
+          justify-content: flex-start;
+          background-color: #f1f1f1;
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+          border-radius: 4px;
+         border-radius: 20px;
+         padding-bottom: 90px;
+        }
+        
+        .project-card .project-info h3{
+          position: absolute;
+          bottom: 10px;
+          left: 20px;
+          margin: 0;
+          text-align: left;
+          color: aliceblue;
+        }
 }
 
 .project-card {
-width: calc(100% - 40px); /* Subtract the desired padding value from 100% */
-  max-width: 700px; /* Optionally, set a maximum width for larger screens */
-  margin: 0 auto; /* Center the card horizontally */
-  padding: 20px; /* Set the desired padding value */
-  position: relative;
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-start;
-  background-color: #f1f1f1;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  border-radius: 4px;
- border-radius: 20px;
- padding-bottom: 90px;
-}
+    width: 40lvw;
+    max-width: 70vw;
+    position: relative;
+    display: inline-flex;
+    background-color: #171425;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    padding-bottom: 30lvh;
+  }
+  
 
 .project-card .project-info h3{
   position: absolute;
@@ -458,3 +481,37 @@ width: calc(100% - 40px); /* Subtract the desired padding value from 100% */
   color: aliceblue;
 }
 
+#projectcards {
+    width: max-content
+}
+
+.project-link {
+    margin-left: 4lvh;
+}
+
+
+
+#anim {
+    color: rgb(105, 218, 40); /* Replace "purple" with the desired color for the text */
+  }
+  
+  #anim i {
+    color: rgb(105, 218, 40); /* Replace "orange" with the desired color for the circle icon */
+  }
+  
+  #gameDev {
+    color: rgb(68, 182, 235); /* Replace "blue" with the desired color for the text */
+  }
+  
+  #gameDev i {
+    color: rgb(68, 182, 235); /* Replace "green" with the desired color for the circle icon */
+  }
+  
+  #graphicDesign {
+    color: yellow; /* Replace "red" with the desired color for the text */
+  }
+  
+  #graphicDesign i {
+    color: yellow; /* Replace "yellow" with the desired color for the circle icon */
+  }
+  

@@ -99,7 +99,7 @@ body {
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
     background-image: url("https://images.unsplash.com/photo-1593683411501-4a421e067a46?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");
-    background-size: auto;
+    background-size: 200vh;
     position: absolute;
   }
   .last-name {
@@ -109,7 +109,7 @@ body {
   #middle h2 {
     font-size: 5lvh;
     text-align: right;
-    padding-right:16lvw;
+    padding-right:31vh;
     padding-top:15lvw;
     margin-bottom: 3vh;
   }
@@ -205,7 +205,7 @@ body {
     width:90vw;
     height:90vh;
     padding:5vh 5vw;
-    background:rgb(65 66 94); 
+    background:rgb(2, 7, 17);
     color:#fff;
     z-index:9;
     position:fixed;
